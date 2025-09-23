@@ -1,10 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>About</title>
-    </head>
-    <body>
-        
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me | Binath Perera</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f8f9fa, #e0f7fa);
+      color: #333;
+    }
+
+    header {
+      background-color: #00bcd4;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #00bcd4;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .profile-pic:hover {
+      transform: scale(1.05);
+    }
+
+    .about-text {
+      margin-top: 2rem;
+      line-height: 1.7;
+      font-size: 1.1rem;
+    }
+
+    .highlight {
+      color: #00796b;
+      font-weight: bold;
+    }
+
+    .quote {
+      margin: 2rem 0;
+      font-style: italic;
+      text-align: center;
+      color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #00bcd4;
+      color: white;
+      margin-top: 3rem;
+    }
+
+    button {
+      background-color: #00796b;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #004d40;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+    <p>Binath Perera</p>
+  </header>
+
+  <div class="container">
+    <div style="text-align: center;">
+      <img src="https://i.imgur.com/4M34hi2.jpg" alt="Traveler" class="profile-pic" />
+    </div>
+
+    <div class="about-text">
+      <p>Hey there! I'm <span class="highlight">Binath</span>, a full-time explorer, part-time storyteller, and forever seeker of the world's hidden gems. From sipping chai in the streets of Jaipur to hiking the misty trails of Patagonia, I’ve made it my mission to chase experiences that stir the soul and spark curiosity.</p>
+
+      <p>This blog is my digital passport—a place where I share tales of adventure, travel hacks, cultural musings, and the occasional travel blooper (yes, I once mistook a bidet for a drinking fountain... never again).</p>
+
+      <p>Whether you're planning your first solo trip or just daydreaming from your desk, I hope my stories inspire you to take the leap, pack light, and travel deep.</p>
+
+      <h3>My travel interests</h3>
+      <ul>
+        <li>Cultural Immersion</li>
+        <li>Adventure and Outdoor Exploration</li>
+        <li>Food and Culinary Journeys</li>
+        <li>Historical and Heritage Travel</li>
+        <li>Mindfull and Wellness Travel</li>
+      </ul>
+      <div class="quote">“Travel isn’t always pretty. It isn’t always comfortable. But it changes you.” – Anthony Bourdain</div>
+
+      <h3>Contact Me</h3>
+      <p>071 3376240</p>
+      <p>binathpr@gmail.com</p>
+      <div style="text-align: center;">
+        <button onclick="showMessage()">Say Hello</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Binath Perera | Follow the journey, not the map.
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("Thanks for stopping by! Let's connect on Instagram @_binath_ 🌍");
+    }
+  </script>
+</body>
 </html>

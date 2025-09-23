@@ -1,10 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Destinations</title>
-    </head>
-    <body>
-        
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Stories | Binath Perera</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f8f9fa, #e0f7fa);
+      color: #333;
+    }
+
+    header {
+      background-color: #00bcd4;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .story {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .story:hover {
+      transform: scale(1.02);
+    }
+
+    .story img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .story-content {
+      padding: 1.5rem;
+    }
+
+    .story-content h2 {
+      margin-top: 0;
+      color: #00796b;
+    }
+
+    .story-content p {
+      line-height: 1.6;
+    }
+
+    .highlights {
+      margin-top: 1rem;
+      padding-left: 1.2rem;
+    }
+
+    .highlights li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #00bcd4;
+      color: white;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Travel Stories</h1>
+    <p>Binath Perera</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Destination 1 -->
+    <div class="story">
+      <img src="https://i.imgur.com/233mnHR.jpeg" alt="Kyoto, Japan" />
+      <div class="story-content">
+        <h2>Kyoto, Japan</h2>
+        <p>Ancient temples, serene gardens, and the whisper of geishas in Gion—Kyoto is a timeless escape into Japan’s cultural heart.</p>
+        <ul class="highlights">
+          <li>Exploring Fushimi Inari Shrine’s iconic red torii gates</li>
+          <li>Tea ceremony in a traditional machiya house</li>
+          <li>Strolling through Arashiyama Bamboo Grove</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Destination 2 -->
+    <div class="story">
+      <img src="https://i.imgur.com/CSXUcay.jpeg" alt="Marrakech, Morocco" />
+      <div class="story-content">
+        <h2>Marrakech, Morocco</h2>
+        <p>A kaleidoscope of colors, spices, and sounds—Marrakech is a sensory overload that leaves you enchanted and craving more.</p>
+        <ul class="highlights">
+          <li>Getting lost in the souks of the Medina</li>
+          <li>Sunset views from a rooftop riad</li>
+          <li>Visiting the Majorelle Garden and Yves Saint Laurent Museum</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Destination 3 -->
+    <div class="story">
+      <img src="https://i.imgur.com/qbTCgwG.jpeg" alt="Banff, Canada" />
+      <div class="story-content">
+        <h2>Banff, Canada</h2>
+        <p>Crystal-clear lakes, towering peaks, and wildlife encounters—Banff is nature’s playground for the soul-searching adventurer.</p>
+        <ul class="highlights">
+          <li>Kayaking on Lake Louise</li>
+          <li>Hiking the Icefields Parkway</li>
+          <li>Spotting elk and bears in the wild</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Binath Perera | Every story begins with a step.
+  </footer>
+</body>
 </html>
